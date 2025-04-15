@@ -11,3 +11,17 @@ if pedirSenha == senha:
     print("Usuário conectado!")
 else:
     print("Usuário bloqueado!")
+
+
+"""Resolução do prof: 
+pin = 1234
+tentativas = 1
+mensagem="Acesso Bloqueado!"
+
+while tentativas<=3:
+    senha=int(input("Digite a senha"))
+    if senha == pin:
+        mensagem="Login efetuado com sucesso!"
+        break 
+    tentativas = tentativas + 1
+print(mensagem)"""
